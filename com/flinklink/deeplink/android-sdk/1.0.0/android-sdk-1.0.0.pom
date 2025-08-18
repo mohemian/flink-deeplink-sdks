@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.flinklink.deeplink</groupId>
+  <artifactId>android-sdk</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <licenses>
+    <license>
+      <name>LICENSE</name>
+      <url>https://raw.githubusercontent.com/mohemian/flink-deeplink-sdks/refs/heads/master/LICENSE</url>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.16.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.nimbusds</groupId>
+      <artifactId>nimbus-jose-jwt</artifactId>
+      <version>10.4</version>
+    </dependency>
+  </dependencies>
+</project>
